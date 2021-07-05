@@ -1,0 +1,64 @@
+body{
+    background-image: url(blue.jpg);
+    background-size: cover;
+}
+
+.Bg #overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background:white;
+    z-index: 1;
+  
+}
+form{
+    color: black;
+    text-shadow: 1px 1px 1px solid white;
+    font-family: Georgia;
+    font-size: 25px;
+    margin-top: 250px;
+    margin-left: 35%;
+    
+}
+
+.log{
+    color: black;
+    text-shadow: white;
+    font-family: Georgia;
+    margin-left: 47%;
+    }
+
+.Bg .popup {
+    position: fixed;
+    text-align: center;
+    font-family: Arial;
+    left: 26%;
+    top: 10%;
+    background: #fff;
+    transform: translate(-50%,-50%);
+    z-index: 2; 
+}
+.imahe {
+    position: fixed;
+    text-align: center;
+    font-family: Arial;
+    left: 49%;
+    top: 40%;
+    background: #fff;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+
+}
+.imahe .check {
+    height: 1100px;
+}
+
+h1 {
+    font-family: Georgia;
+    font-size: 30px;
+    text-align: justify;
+    color: darkblue;
+}
+
